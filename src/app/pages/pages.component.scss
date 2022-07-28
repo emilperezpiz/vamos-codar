@@ -1,0 +1,19 @@
+@import "../../styles/colors.scss";
+
+section.main {
+  height: 120vh;
+  background-color: $gray_two;
+  padding-top: 63px;
+}
+
+section.main nav {
+  padding-left: 2%;
+}
+
+section.main div.container-content {
+  flex: 3;
+  padding: 0 1%;
+}
+
+section.main aside {
+}

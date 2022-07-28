@@ -1,7 +1,6 @@
 import { Post } from './post.model';
 import { CustomResponse } from './../../shared/model/custom-response.model';
 import { Observable } from 'rxjs';
-import { environment } from './../../../environments/environment';
 import { RequestService } from './../../shared/services/request.service';
 import { Injectable } from '@angular/core';
 
