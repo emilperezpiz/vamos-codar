@@ -9,4 +9,9 @@
   -webkit-appearance: none;
   border-radius: 0.375rem;
   transition: all cubic-bezier(0.17, 0.67, 0.5, 0.71) 100ms;
+  padding-left: 3%;
+}
+
+.container-search input:focus {
+  outline: $blue_one solid 2px;
 }

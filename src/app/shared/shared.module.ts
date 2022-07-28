@@ -6,29 +6,28 @@ import { FooterComponent } from './components/theme/footer/footer.component';
 import { NavComponent } from './components/theme/nav/nav.component';
 import { AsideComponent } from './components/theme/aside/aside.component';
 import { SearchBarComponent } from './components/includes/search-bar/search-bar.component';
+import { AvatarUserComponent } from './components/includes/avatar-user/avatar-user.component';
 
 @NgModule({
   declarations: [
     HeaderComponent,
     SearchBarComponent,
     NavComponent,
+    AvatarUserComponent,
     AsideComponent,
-    FooterComponent
+    FooterComponent,
   ],
-  imports: [
-    CommonModule,
-    FormsModule,
-    ReactiveFormsModule
-  ],
+  imports: [CommonModule, FormsModule, ReactiveFormsModule],
   exports: [
     HeaderComponent,
     SearchBarComponent,
     NavComponent,
+    AvatarUserComponent,
     AsideComponent,
     FooterComponent,
     CommonModule,
     FormsModule,
-    ReactiveFormsModule
-  ]
+    ReactiveFormsModule,
+  ],
 })
-export class SharedModule { }
+export class SharedModule {}

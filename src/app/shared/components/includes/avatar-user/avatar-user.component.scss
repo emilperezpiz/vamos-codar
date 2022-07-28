@@ -1,0 +1,19 @@
+@import '../../../../../styles/colors.scss';
+
+div.container-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+  border: 1px solid $gray_one;
+  overflow: hidden;
+}
+
+div.container-avatar:hover {
+  box-shadow: 0 0px 5px #ccc;
+  cursor: pointer;
+}
+
+div.container-avatar image {
+  max-width: 100%;
+}
+
